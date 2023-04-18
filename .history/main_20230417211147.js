@@ -246,7 +246,7 @@ const pets = [
   let domString = ``;
 
   for (const pet of pets) {
-    domString += `<div class="card" style="width: 18rem;">
+    domString += <div class="card" style="width: 18rem;">
     <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}"></img>
     <div class="card-body">
       <h5 class="card-title">${pet.name}</h5>
@@ -257,11 +257,10 @@ const pets = [
       <p>color: ${pet.color}</p>
     </div>
 
-  </div>`
+  </div>
   }
 
   targetingApp.innerHTML = domString;
-  console.log(domString);
 
 
   

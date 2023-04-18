@@ -243,25 +243,18 @@ const pets = [
 
   const targetingApp = document.querySelector("#app");
   console.log(targetingApp);
-  let domString = ``;
+  let domString = "";
 
   for (const pet of pets) {
-    domString += `<div class="card" style="width: 18rem;">
-    <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}"></img>
+    domString += <div class="card" style="width: 18rem;">
+    <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}">
     <div class="card-body">
       <h5 class="card-title">${pet.name}</h5>
 
-      <p>Text: ${pet.type}</p>
-      <p class="card-text">${pet.specialSkill}</p>
-      <p>Type: ${pet.type}</p>
-      <p>color: ${pet.color}</p>
+      <p class="card-text">${pet.</p>
     </div>
-
-  </div>`
+  </div>
   }
-
-  targetingApp.innerHTML = domString;
-  console.log(domString);
 
 
   

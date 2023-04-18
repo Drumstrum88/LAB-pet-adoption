@@ -257,7 +257,7 @@ const pets = [
       <p>color: ${pet.color}</p>
     </div>
 
-  </div>`
+  </div>
   }
 
   targetingApp.innerHTML = domString;
