@@ -1,0 +1,11 @@
+body {
+  background-color: blanchedalmond;
+}
+
+#app {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: ;
+}

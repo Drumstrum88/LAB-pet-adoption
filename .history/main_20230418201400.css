@@ -1,0 +1,16 @@
+body {
+  background-color: blanchedalmond;
+}
+
+#app {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
+  padding: 20px;
+}
+
+#buttons {
+  display: inline-flex;
+  justify-content: center;
+}
