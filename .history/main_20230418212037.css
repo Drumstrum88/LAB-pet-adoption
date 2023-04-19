@@ -1,0 +1,24 @@
+body {
+  background-color: darkcyan;
+  margin: auto;
+  justify-content: space-around;
+}
+
+#app {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 100px;
+  padding: 20px;
+}
+  
+.buttons {
+  display: inline-flex;
+  justify-content: center;
+}
+
+#cats, #dogs, #dinos {
+  background-color: slategray;
+  border-color: azure;
+  border-radius: 50%;
+}
