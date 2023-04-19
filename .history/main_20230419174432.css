@@ -45,10 +45,9 @@ p {
 }
 
 #the-head {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  color: whitesmoke;
-  font-family: 'Courier New', Courier, monospace;
+  color
 }
