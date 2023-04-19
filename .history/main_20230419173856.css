@@ -18,7 +18,7 @@ body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 35px;
+    margin-top: 20px;
 
   }
   
@@ -42,13 +42,4 @@ p {
 
 .card-title {
   justify-content: center;
-}
-
-#the-head {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  color: whitesmoke;
-  font-family: 'Courier New', Courier, monospace;
 }

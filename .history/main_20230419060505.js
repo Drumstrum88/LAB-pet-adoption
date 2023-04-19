@@ -254,7 +254,7 @@ const pets = [
     <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}"></img>
     <div class="card-body">
       <h5 class="card-title">${pet.name}</h5>
-      <p>Type: ${pet.type}</p>
+      <p>: ${pet.type}</p>
       <p class="card-text">${pet.specialSkill}</p>
       <p>Type: ${pet.type}</p>
       <p>color: ${pet.color}</p>
