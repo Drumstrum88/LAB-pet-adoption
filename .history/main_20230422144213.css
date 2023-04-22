@@ -27,7 +27,7 @@ body {
   
 
 
-#cats, #dogs, #dinos, #pets, #menu {
+#cats, #dogs, #dinos, #pets, menu {
   background-color: slategray;
   border-color: azure;
   border-radius: 50%;
@@ -72,4 +72,8 @@ p {
   background-color: darkkhaki;
   border-color:dimgray;
   color: azure;
+}
+
+.button {
+
 }
