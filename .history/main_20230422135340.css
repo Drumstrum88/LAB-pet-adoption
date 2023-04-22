@@ -62,7 +62,7 @@ p {
 .form {
   display: box;
   max-width: 300px;
-  
+  height: 100px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 35px;

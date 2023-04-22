@@ -18,7 +18,7 @@ body {
   
 .buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
@@ -31,7 +31,6 @@ body {
   background-color: slategray;
   border-color: azure;
   border-radius: 50%;
-  
   
 }
 
@@ -61,15 +60,7 @@ p {
 
 .form {
   display: box;
-  max-width: 300px;
-  
+  max-width: 400px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 35px;
-}
-
-#submit {
-  background-color: darkkhaki;
-  border-color:dimgray;
-  color: azure;
 }

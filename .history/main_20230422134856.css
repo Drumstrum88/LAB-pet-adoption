@@ -18,7 +18,7 @@ body {
   
 .buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
@@ -61,8 +61,7 @@ p {
 
 .form {
   display: box;
-  max-width: 300px;
-  
+  max-width: 400px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 35px;
