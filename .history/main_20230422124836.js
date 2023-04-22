@@ -340,7 +340,7 @@ app.addEventListener('click', (e) => {
 
     const index = pets.findIndex(e => e.id === (id));
 
-    pets.splice(index, 1);
+    team.splice(index, 1);
 
     cardsOnDom(pets);
   }
@@ -350,7 +350,7 @@ const startApp = () => {
   cardsOnDom(pets);
 }
 
-stargetApp();
+stargteApp();
 
 
   

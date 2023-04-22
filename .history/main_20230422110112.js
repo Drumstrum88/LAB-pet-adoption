@@ -258,7 +258,6 @@ const pets = [
       <p class="card-text">${pet.specialSkill}</p>
      
       <p>color: ${pet.color}</p>
-      <button class="btn btn-danger" id="delete--${pet.id}">Delete</button>
     </div>
   </div>`;
   };
@@ -268,7 +267,7 @@ const pets = [
  
  cardsOnDom(pets);
 
-  const filter = (pets, typeString) => {
+  const filter = (array, typeString) => {
   const typeArray = [];
   for (const pet of pets) {
     if (pet.type === typeString) {
@@ -277,29 +276,15 @@ const pets = [
    }
    return typeArray;
  }
-// 1. select/target the form on the DOM
- const form = document.querySelector('.form');
+
+ const form = document.querySelector("#form");
 
  const createPet = (e) => {
   e.preventDefault();
- 
-
- const newPetObj = {
-  id: pets.length + 1,
-  image: document.querySelector("#image").value,
-  name: document.querySelector("#name").value,
-  color: document.querySelector("#color").value,
-  specialSkill: document.querySelector("#specialSkill").value,
-  type: document.querySelector("#type").value
  }
 
-pets.push(newPetObj);
-cardsOnDom(pets);
-form.reset();
-
- }
-
-  form.addEventListener('submit', createPet);
+ const newPetObj = 
+  ]
  
 
 
@@ -331,26 +316,4 @@ petsBtn.addEventListener('click', () => {
   cardsOnDom(pets);
 }
 );
-
-const app = document.querySelector("#app");
-
-app.addEventListener('click', (e) => {
-  if (e.target.id.includes("delete")) {
-    const [, id] = e.target.id.split("--");
-
-    const index = pets.findIndex(e => e.id === (id));
-
-    pets.splice(index, 1);
-
-    cardsOnDom(pets);
-  }
-});
-
-const startApp = () => {
-  cardsOnDom(pets);
-}
-
-stargetApp();
-
-
   
