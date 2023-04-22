@@ -335,12 +335,12 @@ petsBtn.addEventListener('click', () => {
 const app = document.querySelector("#app");
 
 app.addEventListener('click', (e) => {
-  if (e.target.id.includes("delete")) {
+  if (e.target.id.icludes("delete")) {
     const [, id] = e.target.id.split("--");
 
     const index = pets.findIndex(e => e.id === (id));
 
-    pets.splice(index, 1);
+    team.splice(index, 1);
 
     cardsOnDom(pets);
   }
@@ -350,7 +350,7 @@ const startApp = () => {
   cardsOnDom(pets);
 }
 
-stargetApp();
+startApp();
 
 
   
