@@ -28,10 +28,8 @@ body {
 #cats, #dogs, #dinos, #pets, #menu {
   background-color: slategray;
   border-color: azure;
-  border-radius: 15%;
-  border-style:ridge;
-  width: 250px;
-  height: 75px;
+  border-radius: 30%;
+  width: 200px;
   
   
 }

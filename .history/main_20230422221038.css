@@ -29,9 +29,7 @@ body {
   background-color: slategray;
   border-color: azure;
   border-radius: 15%;
-  border-style:ridge;
-  width: 250px;
-  height: 75px;
+  width: 95px;
   
   
 }
@@ -80,7 +78,7 @@ p {
   margin-left: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-style:italic;
-  color: azure;
+  color: az
 }
 
 .topnav {
