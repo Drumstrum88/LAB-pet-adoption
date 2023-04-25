@@ -290,7 +290,7 @@ const pets = [
   name: document.querySelector("#name").value,
   color: document.querySelector("#color").value,
   specialSkill: document.querySelector("#specialSkill").value,
-  type: document.querySelector(`input[name= exampleRadios]:checked`).value,
+  type: document.querySelector(").value
  }
 
 pets.push(newPetObj);
